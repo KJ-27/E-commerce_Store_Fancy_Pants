@@ -83,7 +83,7 @@ class MainActivity : AppCompatActivity() {
         super.onStart()
         binding.txtEmail.setText("")
         binding.txtPassword.setText("")
-        val existenUser = auth.currentUser
-        goNextView(existenUser)
+        val existingUser = auth.currentUser
+        goNextView(existingUser)
     }
 }
