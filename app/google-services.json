@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "857571142366",
+    "project_id": "lugares-3225b",
+    "storage_bucket": "lugares-3225b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857571142366:android:d251bc1a080fce5169b04f",
+        "android_client_info": {
+          "package_name": "com.example.e_commerce_store_fancy_pants"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857571142366-mo6epj72pgimjbhnr7orkefotun2k7kc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB43mcEiCuPXDT0Y42miv4xRboLi48hd_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857571142366-mo6epj72pgimjbhnr7orkefotun2k7kc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857571142366:android:140c6307462eff9569b04f",
+        "android_client_info": {
+          "package_name": "com.example.lugares"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857571142366-mo6epj72pgimjbhnr7orkefotun2k7kc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB43mcEiCuPXDT0Y42miv4xRboLi48hd_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857571142366-mo6epj72pgimjbhnr7orkefotun2k7kc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
