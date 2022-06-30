@@ -1,10 +1,10 @@
-package com.example.e_commerce_store_fancy_pants.ui.home
+package com.example.e_commerce_store_fancy_pants.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class HomeViewModel : ViewModel() {
+class ProductoViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
         value = "This is home Fragment"

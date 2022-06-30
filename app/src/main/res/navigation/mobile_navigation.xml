@@ -3,13 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_producto">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.example.e_commerce_store_fancy_pants.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/nav_producto"
+        android:name="com.example.e_commerce_store_fancy_pants.ui.producto.ProductoFragment"
+        android:label="@string/menu_producto"
+        tools:layout="@layout/fragment_producto" />
 
     <fragment
         android:id="@+id/nav_gallery"
