@@ -47,11 +47,11 @@ class UpdateProductoFragment : Fragment() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        //Si se borra
-        if(item.itemId == R.id.menu_delete) {
+        // Si es eliminar
+        if (item.itemId == R.id.menu_delete){
             deleteProducto()
         }
-        return super.onContextItemSelected(item)
+        return super.onOptionsItemSelected(item)
     }
 
     private fun updateProducto() {
