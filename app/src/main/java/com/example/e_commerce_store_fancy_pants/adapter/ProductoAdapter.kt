@@ -2,9 +2,11 @@ package com.example.e_commerce_store_fancy_pants.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.example.e_commerce_store_fancy_pants.databinding.ProductoFilaBinding
 import com.example.e_commerce_store_fancy_pants.model.Producto
+import com.example.e_commerce_store_fancy_pants.ui.producto.ProductoFragmentDirections
 
 class ProductoAdapter : RecyclerView.Adapter<ProductoAdapter.ProductoViewHolder>() {
 
@@ -19,6 +21,12 @@ class ProductoAdapter : RecyclerView.Adapter<ProductoAdapter.ProductoViewHolder>
             itemBinding.tvColor.text = "Color: "+producto.color
             itemBinding.tvDescuento.text = "Descuento: "+producto.descuento
             itemBinding.tvPrecio.text = "Precio: "+producto.precio
+
+            //Navegar al update
+            itemBinding.vistaFila.setOnClickListener{
+                val action = ProductoFragmentDirections.actionNavProductoToUpdateProductoFragment(producto)
+                itemView.findNavController().navigate(action)
+            }
         }
     }
 
