@@ -9,7 +9,11 @@
         android:id="@+id/nav_producto"
         android:name="com.example.e_commerce_store_fancy_pants.ui.producto.ProductoFragment"
         android:label="@string/menu_producto"
-        tools:layout="@layout/fragment_producto" />
+        tools:layout="@layout/fragment_producto" >
+        <action
+            android:id="@+id/action_nav_producto_to_addProductoFragment"
+            app:destination="@id/addProductoFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_gallery"
@@ -22,4 +26,13 @@
         android:name="com.example.e_commerce_store_fancy_pants.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/addProductoFragment"
+        android:name="com.example.e_commerce_store_fancy_pants.ui.producto.AddProductoFragment"
+        android:label="fragment_add_producto"
+        tools:layout="@layout/fragment_add_producto" >
+        <action
+            android:id="@+id/action_addProductoFragment_to_nav_producto"
+            app:destination="@id/nav_producto" />
+    </fragment>
 </navigation>
