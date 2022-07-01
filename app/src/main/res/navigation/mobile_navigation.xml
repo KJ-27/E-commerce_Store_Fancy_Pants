@@ -29,7 +29,7 @@
     <fragment
         android:id="@+id/addProductoFragment"
         android:name="com.example.e_commerce_store_fancy_pants.ui.producto.AddProductoFragment"
-        android:label="fragment_add_producto"
+        android:label="Agregar Producto"
         tools:layout="@layout/fragment_add_producto" >
         <action
             android:id="@+id/action_addProductoFragment_to_nav_producto"
