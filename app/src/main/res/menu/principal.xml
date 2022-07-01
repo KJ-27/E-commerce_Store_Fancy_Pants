@@ -7,5 +7,5 @@
         android:iconTint="@color/white"
         android:orderInCategory="100"
         android:title="Cerrar Sesión"
-        app:showAsAction="never" />
+        app:showAsAction="ifRoom" />
 </menu>
