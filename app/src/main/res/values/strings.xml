@@ -21,6 +21,7 @@
     <string name="No">No</string>
     <string name="Delete">Eliminar</string>
     <string name="msg_Delete">Seguro que desea eliminar el producto: </string>
+    <string name="menu_delete">Borrar</string>
 
     <string name="title_activity_principal">PrincipalActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>

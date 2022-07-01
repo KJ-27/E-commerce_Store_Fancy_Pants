@@ -2,9 +2,7 @@ package com.example.e_commerce_store_fancy_pants.ui.producto
 
 import android.app.AlertDialog
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+import android.view.*
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
@@ -42,6 +40,18 @@ class UpdateProductoFragment : Fragment() {
         binding.btnAdd.setOnClickListener{ updateProducto() }
 
         return binding.root
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+        inflater.inflate(R.menu.delete_menu, menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        //Si se borra
+        if(item.itemId == R.id.menu_delete) {
+            deleteProducto()
+        }
+        return super.onContextItemSelected(item)
     }
 
     private fun updateProducto() {
