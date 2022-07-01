@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/cespe/Desktop/Projects/PrograMovil/Examen/app/src/main/res/drawable/ic_add.xml" value="0.3025" />
         <entry key="..\:/Users/cespe/Desktop/Projects/PrograMovil/Examen/app/src/main/res/drawable/ic_delete.xml" value="0.2375" />
         <entry key="..\:/Users/cespe/Desktop/Projects/PrograMovil/Examen/app/src/main/res/drawable/ic_login.xml" value="0.2375" />
         <entry key="..\:/Users/cespe/Desktop/Projects/PrograMovil/Examen/app/src/main/res/drawable/ic_logoff.xml" value="0.2375" />
@@ -11,11 +12,17 @@
         <entry key="..\:/Users/cespe/Desktop/Projects/PrograMovil/Examen/app/src/main/res/layout/activity_principal.xml" value="0.3875" />
         <entry key="..\:/Users/cespe/Desktop/Projects/PrograMovil/Examen/app/src/main/res/layout/app_bar_principal.xml" value="0.3875" />
         <entry key="..\:/Users/cespe/Desktop/Projects/PrograMovil/Examen/app/src/main/res/layout/content_principal.xml" value="0.29375" />
+        <entry key="..\:/Users/cespe/Desktop/Projects/PrograMovil/Examen/app/src/main/res/layout/fragment_add_producto.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/cespe/Desktop/Projects/PrograMovil/Examen/app/src/main/res/layout/fragment_gallery.xml" value="0.3875" />
         <entry key="..\:/Users/cespe/Desktop/Projects/PrograMovil/Examen/app/src/main/res/layout/fragment_home.xml" value="0.3875" />
+        <entry key="..\:/Users/cespe/Desktop/Projects/PrograMovil/Examen/app/src/main/res/layout/fragment_producto.xml" value="0.2989583333333333" />
         <entry key="..\:/Users/cespe/Desktop/Projects/PrograMovil/Examen/app/src/main/res/layout/fragment_slideshow.xml" value="0.3875" />
+        <entry key="..\:/Users/cespe/Desktop/Projects/PrograMovil/Examen/app/src/main/res/layout/fragment_update_producto.xml" value="0.3875" />
         <entry key="..\:/Users/cespe/Desktop/Projects/PrograMovil/Examen/app/src/main/res/layout/nav_header_principal.xml" value="0.3875" />
-        <entry key="..\:/Users/cespe/Desktop/Projects/PrograMovil/Examen/app/src/main/res/menu/activity_main_drawer.xml" value="0.29375" />
+        <entry key="..\:/Users/cespe/Desktop/Projects/PrograMovil/Examen/app/src/main/res/layout/producto_fila.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/cespe/Desktop/Projects/PrograMovil/Examen/app/src/main/res/menu-v26/principal.xml" value="0.296875" />
+        <entry key="..\:/Users/cespe/Desktop/Projects/PrograMovil/Examen/app/src/main/res/menu/activity_main_drawer.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/cespe/Desktop/Projects/PrograMovil/Examen/app/src/main/res/menu/delete_menu.xml" value="0.22" />
         <entry key="..\:/Users/cespe/Desktop/Projects/PrograMovil/Examen/app/src/main/res/menu/principal.xml" value="0.29375" />
         <entry key="..\:/Users/cespe/Desktop/Projects/PrograMovil/Examen/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2485" />
       </map>
